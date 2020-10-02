@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class conversion
+{
+  public static void main(String args[])
+{
+float C,F;
+   Scanner ss=new Scanner(System.in);
+   System.out.println("Enter value for celsius->>");
+  C=ss.nextFloat();
+   F=(C*(9/5))+32;
+System.out.println("The given temperature in Fahrenheit is->>"+F);
+}
+}
